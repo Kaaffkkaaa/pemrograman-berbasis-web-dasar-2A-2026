@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="font-sans bg-gray-100">
+    <nav id="navbar" class="flex justify-between items-center px-16 py-4 bg-white">
+        <div class="flex gap-25 text-sm font-medium">
+            <a href="" class="text-[#3852B4]">HOME</a>
+            <a href="">COURSES</a>
+            <a href="">TEACHERS</a>
+            <a href="">PAGES</a>
+            <a href="">BLOG</a>
+            <a href="">CONTACT</a>
+        </div>
+        <div class="flex items-center gap-3">
+            <button id="btnToggle" onclick="toggleDarkMode()"
+                class="px-4 py-2 rounded-full border-2 border-[#3852B4] text-[#3852B4] font-medium text-sm">
+                Dark Mode
+            </button>
+            <button class="bg-[#3852B4] text-white px-4 py-2 rounded">
+                ➝ CONTACT US
+            </button>
+        </div>
+    </nav>
+    <section id="heroSection" class="flex items-center justify-center m-0 bg-gray-200 gap-15">
+        <div class="max-w-3xl ml-10">
+            <p class="text-md text-[#3852B4]">E-LEARNING PLATFORM</p>
+            <h1 class="text-6xl font-bold leading-snug text-[#3852B4]">
+                Online Course Education
+            </h1>
+            <p id="heroSubtext" class="text-5xl mb-6">
+                Feels Like Real Classroom
+            </p>
+            <div class="flex gap-3 mb-5">
+                <div class="flex items-center gap-1">
+                    <img src="UTS/icon_checklist.svg" alt="" width="15">
+                    <div>Get Certificate</div>
+                </div>
+                <div class="flex items-center gap-1">
+                    <img src="UTS/icon_checklist.svg" alt="" width="15">
+                    <div>Gain Job Ready Skill</div>
+                </div>
+                <div class="flex items-center gap-1">
+                    <img src="UTS/icon_checklist.svg" alt="" width="15">
+                    <div>Greay Life</div>
+                </div>
+            </div>
+            <div class="flex gap-4">
+                <button class="bg-[#3852B4] text-white px-5 py-2 rounded">
+                    GET STARTED ➝
+                </button>
+                <button class="bg-orange-400 text-white px-5 py-2 rounded">
+                    GET COURSE ➝
+                </button>
+            </div>
+        </div>
+        <img src="UTS/gambar_orang.png" class="w-[520px]">
+    </section>
+    <section class="bg-[#5E7AC4] text-white px-16 py-14 flex gap-20 items-center justify-center">
+        <img src="UTS/gambar_course.png" class="w-[450px] rounded-lg">
+        <div class="max-w-100">
+            <p class="text-sm mb-5">
+                GET TO KNOW ABOUT US
+            </p>
+            <h2 class="text-2xl font-semibold mb-3">
+                Transform your future with skills that matter. Start learning today, lead tomorrow.
+            </h2>
+            <p class="text-sm mb-5">
+                Can helping you build in-demand skills quickly and advance your career in an ever-changing job market.
+            </p>
+            <button class="bg-orange-400 px-4 py-2 rounded">
+                About More ➝
+            </button>
+        </div>
+    </section>
+    <section id="statsSection" class="bg-gray-100 px-16 py-10">
+        <div class="flex justify-center text-center gap-25">
+            <div class="flex flex-row items-center gap-2">
+                <img src="UTS/icon_folder.svg" class="w-5">
+                <p class="text-sm text-[#3852B4]">20+ Online Course</p>
+            </div>
+            <div class="flex flex-row items-center gap-2">
+                <img src="UTS/icon_jam.svg" class="w-5">
+                <p class="text-sm text-[#3852B4]">Lifetime Acces</p>
+            </div>
+            <div class="flex flex-row items-center gap-2">
+                <img src="UTS/icon_uang.svg" class="w-5">
+                <p class="text-sm text-[#3852B4]">Value For Money</p>
+            </div>
+            <div class="flex flex-row items-center gap-2">
+                <img src="UTS/icon_headphone.svg" class="w-5">
+                <p class="text-sm text-[#3852B4]">Lifetime Support</p>
+            </div>
+            <div class="flex flex-row items-center gap-2">
+                <img src="UTS/people_icon.svg" class="w-5">
+                <p class="text-sm text-[#3852B4]">Community Support</p>
+            </div>
+            <div class="flex flex-row items-center gap-2">
+                <img src="UTS/icon_download.svg" class="w-5">
+                <p class="text-sm text-[#3852B4]">Free Download Course</p>
+            </div>
+        </div>
+    </section>
+    <section id="coursesCatSection" class="px-16 py-14 bg-gray-100">
+        <h2 id="coursesCatTitle" class="text-center text-3xl font-semibold mb-10 mt-10">
+            OUR POPULAR COURSE
+        </h2>
+        <div class="grid grid-cols-4 gap-6">
+            <div class="bg-white py-6 rounded-xl shadow-sm flex items-center gap-5">
+                <div class="ml-5">
+                    <img src="UTS/icon_toa.svg" alt="">
+                </div>
+                <div>
+                    <p class="font-semibold">Digital Marketing</p>
+                    <p class="text-sm text-gray-500">354 Courses</p>
+                </div>
+            </div>
+            <div class="bg-white py-6 rounded-xl shadow-sm flex items-center gap-5">
+                <div class="ml-5">
+                    <img src="UTS/icon_pallet.svg" alt="">
+                </div>
+                <div>
+                    <p class="font-semibold">Graphic Design</p>
+                    <p class="text-sm text-gray-500">553 Courses</p>
+                </div>
+            </div>
+            <div class="bg-white py-6 rounded-xl shadow-sm flex items-center gap-5">
+                <div class="ml-5">
+                    <img src="UTS/icon_hp.svg" alt="">
+                </div>
+                <div>
+                    <p class="font-semibold">UI/UX Design</p>
+                    <p class="text-sm text-gray-500">175 Courses</p>
+                </div>
+            </div>
+            <div class="bg-white py-6 rounded-xl shadow-sm flex items-center gap-5">
+                <div class="ml-5">
+                    <img src="UTS/icon_webpage.svg" alt="">
+                </div>
+                <div>
+                    <p class="font-semibold">Web Development</p>
+                    <p class="text-sm text-gray-500">211 Courses</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="coursesCardsSection" class="px-16 pb-16 bg-gray-100">
+        <div class="grid grid-cols-4 gap-6">
+            <div id="card1" class="bg-white rounded-lg shadow-sm overflow-hidden p-3">
+                <img src="UTS/thumbnail-1.png" class="w-full h-40 object-cover rounded-md">
+                <div class="p-4">
+                    <p class="font-semibold text-lg mb-2">
+                        Learn Figma - UI/UX Design Fundamental
+                    </p>
+                    <div class="flex flex-row items-center mb-4 gap-2">
+                        <img src="UTS/profil_card.svg" alt="">
+                        <p class="text-xs text-black">
+                            Programer_Handal
+                        </p>
+                    </div>
+
+                    <div class="flex items-center justify-between text-xs text-gray-500">
+                        <div class="flex gap-3">
+                            <div class="flex gap-3 items-center">
+                                <img src="UTS/folder_card.svg" alt="">
+                                <span>20 Files</span>
+                            </div>
+                            <div class="flex gap-3 items-center">
+                                <img src="UTS/jam_card.svg" alt="">
+                                <span>5 Hours</span>
+                            </div>
+                        </div>
+                        <div class="bg-red-500 p-1 rounded-sm">
+                            <span class="text-white font-semibold">FREE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="card2" class="bg-white rounded-lg shadow-sm overflow-hidden p-3">
+                <img src="UTS/thumbnail-2.png" class="w-full h-40 object-cover rounded-md">
+                <div class="p-4">
+                    <p class="font-semibold text-lg mb-2">
+                        Python Fundamental - For Algoritma Pemrograman
+                    </p>
+                    <div class="flex flex-row items-center mb-4 gap-2">
+                        <img src="UTS/profil_card.svg" alt="">
+                        <p class="text-xs text-black">
+                            Programer_Handal
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-between text-xs text-gray-500">
+                        <div class="flex gap-3">
+                            <div class="flex gap-3 items-center">
+                                <img src="UTS/folder_card.svg" alt="">
+                                <span>20 Files</span>
+                            </div>
+                            <div class="flex gap-3 items-center">
+                                <img src="UTS/jam_card.svg" alt="">
+                                <span>5 Hours</span>
+                            </div>
+                        </div>
+                        <div class="bg-red-500 p-1 rounded-sm">
+                            <span class="text-white font-semibold">FREE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="card3" class="bg-white rounded-lg shadow-sm overflow-hidden p-3">
+                <img src="UTS/thumbnail-3.png" class="w-full h-40 object-cover rounded-md">
+                <div class="p-4">
+                    <p class="font-semibold text-lg mb-2">
+                        Visual Hook - Course Digital Marketing Eps. 3
+                    </p>
+                    <div class="flex flex-row items-center mb-4 gap-2">
+                        <img src="UTS/profil_card.svg" alt="">
+                        <p class="text-xs text-black">
+                            Programer_Handal
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-between text-xs text-gray-500">
+                        <div class="flex gap-3">
+                            <div class="flex gap-3 items-center">
+                                <img src="UTS/folder_card.svg" alt="">
+                                <span>20 Files</span>
+                            </div>
+                            <div class="flex gap-3 items-center">
+                                <img src="UTS/jam_card.svg" alt="">
+                                <span>5 Hours</span>
+                            </div>
+                        </div>
+                        <div class="bg-red-500 p-1 rounded-sm">
+                            <span class="text-white font-semibold">FREE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="card4" class="bg-white rounded-lg shadow-sm overflow-hidden p-3">
+                <img src="UTS/thumbnail-4.png" class="w-full h-40 object-cover rounded-md">
+                <div class="p-4">
+                    <p class="font-semibold text-lg mb-2">
+                        Layout - Graphic Design For Beginner
+                    </p>
+                    <div class="flex flex-row items-center mb-4 gap-2">
+                        <img src="UTS/profil_card.svg" alt="">
+                        <p class="text-xs text-black">
+                            Programer_Handal
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-between text-xs text-gray-500">
+                        <div class="flex gap-3">
+                            <div class="flex gap-3 items-center">
+                                <img src="UTS/folder_card.svg" alt="">
+                                <span>20 Files</span>
+                            </div>
+                            <div class="flex gap-3 items-center">
+                                <img src="UTS/jam_card.svg" alt="">
+                                <span>5 Hours</span>
+                            </div>
+                        </div>
+                        <div class="bg-red-500 p-1 rounded-sm">
+                            <span class="text-white font-semibold">FREE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="viewAllSection" class="text-center mb-25 py-6">
+        <button class="px-6 py-2 bg-[#3852B4] text-white rounded-md">
+            View All Course ➝
+        </button>
+    </div>
+    <section class="flex text-white bg-[#5E7AC4] justify-between pb-15 pt-10">
+        <div class="pl-35">
+            <h2 class="text-2xl font-semibold mb-10 max-w-xs">
+                Dive Into our Online Courses and Ignite Your Learning
+            </h2>
+        </div>
+        <div class="grid grid-cols-4 gap-10 text-sm">
+            <div>
+                <p class="font-bold mb-3">About Me</p>
+                <p>Short Profile</p>
+                <p>Online Course</p>
+                <p>Monthly Discount</p>
+                <p>contact</p>
+            </div>
+            <div>
+                <p class="font-bold mb-3">Navigation</p>
+                <p>Home</p>
+                <p>Teachers</p>
+                <p>Pages</p>
+                <p>Blog</p>
+            </div>
+            <div>
+                <p class="font-bold mb-3">More Information</p>
+                <p>Privacy and terms</p>
+                <p>Copyright</p>
+                <p>Accessibility</p>
+                <p>Sitemap</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#3852B4] text-white text-center py-4 text-sm">
+        @2026 Online Course. All right reserved. Designed By Dhani Kusuma Prasetyo
+    </footer>
+
+    <script>
+        var isDarkMode = false;
+        function toggleDarkMode() {
+            isDarkMode = !isDarkMode;
+            var tombol = document.getElementById('btnToggle');
+            if (isDarkMode) {
+                tombol.innerHTML = 'Light Mode';
+            } else {
+                tombol.innerHTML = 'Dark Mode';
+            }
+            document.body.style.backgroundColor = isDarkMode ? '#1a1a2e' : '';
+            document.body.style.color = isDarkMode ? '#e0e0e0' : '';
+            document.getElementById('navbar').style.backgroundColor = isDarkMode ? '#16213e' : '';
+            document.getElementById('heroSection').style.backgroundColor = isDarkMode ? '#16213e' : '';
+            document.getElementById('heroSubtext').style.color = isDarkMode ? '#e0e0e0' : '';
+            document.getElementById('statsSection').style.backgroundColor = isDarkMode ? '#1a1a2e' : '';
+            document.getElementById('coursesCatSection').style.backgroundColor = isDarkMode ? '#1a1a2e' : '';
+            document.getElementById('coursesCatTitle').style.color = isDarkMode ? '#e0e0e0' : '';
+            document.getElementById('coursesCardsSection').style.backgroundColor = isDarkMode ? '#1a1a2e' : '';
+            document.getElementById('viewAllSection').style.backgroundColor = isDarkMode ? '#1a1a2e' : '';
+            var kartuKursus = [card1, card2, card3, card4];
+            for (var i = 0; i < kartuKursus.length; i++) {
+                kartuKursus[i].style.backgroundColor = isDarkMode ? '#16213e' : '';
+                kartuKursus[i].style.color = isDarkMode ? '#e0e0e0' : '';
+            }
+            document.getElementById('formSection').style.backgroundColor = isDarkMode ? '#1a1a2e' : '';
+            var formCard = document.querySelector('#formSection .bg-white');
+            formCard.style.backgroundColor = isDarkMode ? '#16213e' : '';
+            formCard.style.color = isDarkMode ? '#e0e0e0' : '';
+            document.getElementById('formTitle').style.color = isDarkMode ? '#93b4ff' : '';
+        }
+    </script>
+</body>
+
+</html>
